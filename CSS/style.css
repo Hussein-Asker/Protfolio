@@ -1,0 +1,364 @@
+
+	body{
+	background-color:white;
+	font-family: "ff-meta-serif-web-pro", Georgia, serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin: 0;
+	}
+	/* Header*/
+	.Header{
+	font-family: "ff-meta-serif-web-pro", Georgia, serif;
+	padding-top:10px;
+	width:100%;
+	height:600px;
+	background:linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('../PICS/318750.jpg') 50% 0 no-repeat fixed;
+	
+	-webkit-transition: padding 0.2s linear;
+-moz-transition: padding 0.2s linear;
+-o-transition: padding 0.2s linear;
+transition: padding 0.2s linear;
+	}
+
+	.Header li{
+	text-decoration:none;
+	font-size:15px;
+	padding:10px;
+	display:inline-block;
+	}
+	.Header h1{
+	color:white;
+	font-size:50px;
+	text-align: center;
+	margin-top: 20%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	}
+
+	.Header p{
+	color:white;
+	font-size:20px;
+	text-align: center;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+	}
+
+	.Header a{
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	font-size:15px;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+	}
+
+	.Header button{
+	color:white;
+	background-color:#d24d57;
+	border-style:none;
+	font-weight: bold;
+	padding:10px;
+	font-size:15px;
+	}
+
+	.Header nav{
+	text-align:right;
+	background-color:#d24d57;
+	position:fixed;
+	width:100%;
+	top:0px;
+	right:0px;
+	}
+
+	.Header nav.active {
+	background-color:white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+	}
+
+	.Header button.active {
+	color:#d24d57;
+	background-color:white;
+	}
+
+.Header button:hover{
+	border-bottom:solid 2px;
+}
+
+.Header button:hover.active{
+	border-bottom:solid 2px;
+	border-color:#d24d57;
+}
+
+	//Section 2//
+
+	.Main{display:grid;
+	grid-template-columns:70% 30%;
+	
+	grid-gap:1em;}
+
+	.Main div{
+
+	padding: 2em;
+	}
+	.Main>div:nth-child(odd){
+		
+	}
+
+
+	.Main h2{
+	text-align:center;
+	padding-bottom:20px;
+	font: inherit;
+	font-size:35px;
+	font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+	}
+
+	.Main p{
+	color:#706f6f;
+
+	}
+
+	.Main ul{
+		text-align:center;
+	}
+
+	.Main a{
+	font-size:15px;
+	border:solid 3px;
+	border-radius:8px;
+	padding:20px 80px;
+	text-decoration:none;
+	color:red;
+	background-color:white;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	}
+
+	.Main-1{
+	background-color:#e6e6e6;
+	}
+
+	.Main-2 a:hover{
+	color:white;
+	background-color:#ff4d4d;
+	}
+	.Main-2 img{
+	padding-top:25px;
+	margin:auto;
+	display:block;
+	}
+
+	.Main-3 img{
+	padding-top:25px;
+	margin:auto;
+	display:block;
+	}
+
+	.Main-3 a:hover{
+	color:white;
+	background-color:#ff4d4d;
+	}
+
+	//Section-3//
+
+	.ABOUT-ME{display:grid;
+	grid-template-columns:70% 30%;
+	grid-gap:1em;}
+
+	.ABOUT-ME div{
+
+	padding-top: 7em;
+	padding-bottom:7em;
+	}
+	.ABOUT-ME>div:nth-child(odd){
+		 
+	}
+
+	.ABOUT-ME h2{
+	text-align:center;
+	margin-bottom:20px;
+	color:white;
+	}
+	.ABOUT-ME{
+	text-align:center;
+	
+	}
+	.ABOUT-ME a{
+	font-size:15px;
+	border:solid 3px;
+	border-radius:8px;
+	padding:20px 80px;
+	text-decoration:none;
+	color:white;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	}
+
+	.ABOUT-ME p{
+	text-align:center;
+	padding-bottom:20px;
+	color:white;
+
+	}
+	.ABOUT-ME a:hover{
+	color: white;
+	background-color:red
+	border-color:white;
+	}
+
+	.ABOUT-ME1{
+	background-color: #016052;
+	font-size:18px;
+	}
+
+	.ABOUT-ME2{
+	background-color:#d24d57;
+	font-size:18px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	}
+	.ABOUT-ME2 a:hover{
+	color: #ff4d4d;
+	background-color:white;
+	border-color:white;
+	}
+	.Footer{
+	background-color:#252525;
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align: center;
+	line-height: 1.4em;
+	color: #4d4d4d;
+	font-size: 0.875em;
+	}
+
+	/* Make sure that padding behaves as expected */
+	* {box-sizing:border-box}
+
+	/* Container for skill bars */
+	.Skills{
+		padding-top: 7em;
+		padding-bottom: 7em;
+		padding-left:10px;
+		text-transform: uppercase;
+		background-color:#d24d57;
+		color:white;
+		text-align:center;
+		font-family: "ff-meta-serif-web-pro", Georgia, serif;
+	}
+
+	.container {
+	width: 80%; /* Full width */
+	background-color: #ddd; /* Grey background */
+	}
+
+	.skills {
+	text-align: right; /* Right-align text */
+	padding-top: 10px; /* Add top padding */
+	padding-bottom: 10px; /* Add bottom padding */
+	color: white; /* White text color */
+	}
+
+	.html {width: 90%; background-color:blue;}
+	.css {width: 80%; background-color:red;}
+	.js {width: 65%; background-color:green;} 
+
+	.Footer a{
+	font-size:10px;
+	border:solid 3px;
+	border-radius:8px;
+	padding:10px 80px;
+	margin-top:30px;
+	background: #333333;
+	background: rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	border: 2px solid transparent;
+	color: #cccccc;
+	color: rgba(255, 255, 255, 0.2);
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+	}
+
+	.Footer li{
+
+	display:inline;
+	}
+
+	.TWITTER a:hover{
+		color: white;
+	background-color:#00aced;
+	border-color:#00aced;
+
+	}
+
+		.INSTAGRAM a:hover{
+		color: white;
+	background-color:#dd3174;
+	border-color:#dd3174;
+	}
+
+	/* Media*/
+@media(max-width: 968px){
+body{
+	width: 100%;
+}
+
+.Header ul{
+	text-align:center;
+	font-size:10px;
+}
+
+.Header h1{
+	padding-top:180px;
+	text-align:center;
+	font-size:25px;
+	}
+.Main-2 img{
+	width:100%;
+	height:auto;
+}
+
+.Main-3 img{
+	width:100%;
+	height:auto;
+}
+
+.Main-3 a, .Main-2 a{
+	margin:auto;
+	text-align:center;
+	display:inline-block;
+}
+.Main-3 ul, .Main-2 ul{
+	margin:auto;
+	display:block;
+}
+
+.Footer a{
+
+	padding:10px;
+	}
+}
