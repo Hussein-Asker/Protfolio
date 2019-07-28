@@ -246,36 +246,9 @@ transition: 0.3s;
 	font-size: 0.875em;
 	}
 
-	/* Make sure that padding behaves as expected */
+	
 	* {box-sizing:border-box}
 
-	/* Container for skill bars */
-	.Skills{
-		padding-top: 7em;
-		padding-bottom: 7em;
-		padding-left:10px;
-		text-transform: uppercase;
-		background-color:#d24d57;
-		color:white;
-		text-align:center;
-		font-family: "ff-meta-serif-web-pro", Georgia, serif;
-	}
-
-	.container {
-	width: 80%; /* Full width */
-	background-color: #ddd; /* Grey background */
-	}
-
-	.skills {
-	text-align: right; /* Right-align text */
-	padding-top: 10px; /* Add top padding */
-	padding-bottom: 10px; /* Add bottom padding */
-	color: white; /* White text color */
-	}
-
-	.html {width: 90%; background-color:blue;}
-	.css {width: 80%; background-color:red;}
-	.js {width: 65%; background-color:green;} 
 
 	.Footer a{
 	font-size:10px;
